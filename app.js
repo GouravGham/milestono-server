@@ -14,7 +14,7 @@ app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 // Middleware
 app.use(cors({
-  origin: "https://milestono-web.web.app/",
+  origin: "https://milestono-web.web.app",
   methods: "GET,POST,PUT,DELETE",
   credentials: true
 }));
